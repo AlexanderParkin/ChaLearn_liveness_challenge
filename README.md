@@ -1,4 +1,4 @@
-#Solution for ChaLearn Face Anti-spoofing Attack Detection Challenge @ CVPR2019 by a.parkin (VisionLabs)
+# Solution for ChaLearn Face Anti-spoofing Attack Detection Challenge @ CVPR2019 by a.parkin (VisionLabs)
 
 The solution uses DLAS (Deep Layers Aggregation Solution) architecture models for each of 3 sources (RGB, Depth, IR)
 
