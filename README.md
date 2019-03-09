@@ -1,4 +1,4 @@
-#Solution for ChaLearn Face Anti-spoofing Attack Detection Challenge @ CVPR2019 by a.parkin (VisionLabs)
+# Solution for ChaLearn Face Anti-spoofing Attack Detection Challenge @ CVPR2019 by a.parkin (VisionLabs)
 
 The solution uses DLAS (Deep Layers Aggregation Solution) architecture models for each of 3 sources (RGB, Depth, IR)
 
@@ -19,7 +19,7 @@ Used pretrained models for face or gender recognition
 |Exp. Name|Model architecture|Train description|Link|Google Drive|
 |:---:|:------------:|:-------------:|:--------:|:---------:|
 |exp1_2stage|resnet caffe34|CASIA, sphere loss|[MCS2018](https://github.com/AlexanderParkin/MCS2018.Baseline)|link|
-|exp2|resnet caffe34|Gender classifier on pretrained weights|./attributes_trainer|link|
+|exp2|resnet caffe34|Gender classifier on AFAD-Lite|./attributes_trainer|link|
 |exp3b|IR50|MSCeleb, arcface|[face.evoLVe.PyTorch](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch#Model-Zoo)|link|
 |exp3c|IR50|asia(private) dataset, arcface|[face.evoLVe.PyTorch](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch#Model-Zoo)|link|
 
