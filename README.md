@@ -1,8 +1,25 @@
 # Solution for ChaLearn Face Anti-spoofing Attack Detection Challenge @ CVPR2019 by a.parkin (VisionLabs)
 
-The solution uses DLAS (Deep Layers Aggregation Solution) architecture models for each of 3 sources (RGB, Depth, IR)
+Our method uses a modified network architecture in [1]. As shown on image, the RGB, Depth and IR inputs are processed by separate streams followed by the concatenation and fully-connected layers. Differently from [1] we use aggregation blocks (Agg res2, ...) to aggregate outputs from multiple layers of the network. We pre-train network weights on four different tasks for face recognition and gender recognition. We then fine- tune these networks separately on the training set of the CASIA-SURF face anti-spoofing dataset. To increase the robustness to various attacks, we ensemble networks trained on three training folds and with two initial seeds. Results of our models evaluated separately and in combination are illustrated in table.
 
-## Picture of the architecture
+| NN1 | NN1a | NN2 | NN3 | NN4 | seed | Val trp@fpr=10e-4 | Test trp@fpr=10e-4 |
+|:-----:|:------:|:-----:|:-----:|:-----:|:------:|:-------------------:|:--------------------:|
+|:heavy_check_mark:|      |     |     |     |      | 0.9943            |                    |
+|     |   1  |     |     |     |      | 0.9987            |                    |
+|     |      | 1   |     |     |      | 0.9870            |                    |
+|     |      |     | 1   |     |      | 0.9963            |                    |
+|     |      |     |     | 1   |      | 0.9933            |                    |
+| 1   |      | 1   |     |     |      | 0.9963            |                    |
+| 1   |      | 1   | 1   |     |      | 0.9983            |                    |
+| 1   |      | 1   | 1   |     | 1    | 0.9997            |                    |
+| 1   |      | 1   | 1   | 1   | 1    | 1.0000            |                    |
+|     | 1    | 1   | 1   | 1   | 1    | **1.0000**|**0.9988**|
+
+
+## References
+[1] Shifeng Zhang, Xiaobo Wang, Ajian Liu, Chenxu Zhao, Jun Wan, Ser- gio Escalera, Hailin Shi, Zezheng Wang, Stan Z. Li, ”CASIA-SURF: A Dataset and Benchmark for Large-scale Multi-modal Face Anti-spoofing”, arXiv, 2018.
+
+![Alt text](fact_sheets/figures/net.jpg?raw=true "Network Architecture")
 
 Сreating the conda environment and installing the required libraries
 
