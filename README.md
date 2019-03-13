@@ -5,15 +5,15 @@ Our method uses a modified network architecture in [1]. As shown on image, the R
 | NN1 | NN1a | NN2 | NN3 | NN4 | seed | Val trp@fpr=10e-4 | Test trp@fpr=10e-4 |
 |:-----:|:------:|:-----:|:-----:|:-----:|:------:|:-------------------:|:--------------------:|
 |:heavy_check_mark:|      |     |     |     |      | 0.9943            |                    |
-|     |   1  |     |     |     |      | 0.9987            |                    |
-|     |      | 1   |     |     |      | 0.9870            |                    |
-|     |      |     | 1   |     |      | 0.9963            |                    |
-|     |      |     |     | 1   |      | 0.9933            |                    |
-| 1   |      | 1   |     |     |      | 0.9963            |                    |
-| 1   |      | 1   | 1   |     |      | 0.9983            |                    |
-| 1   |      | 1   | 1   |     | 1    | 0.9997            |                    |
-| 1   |      | 1   | 1   | 1   | 1    | 1.0000            |                    |
-|     | 1    | 1   | 1   | 1   | 1    | **1.0000**|**0.9988**|
+|     |   :heavy_check_mark:  |     |     |     |      | 0.9987            |                    |
+|     |      | :heavy_check_mark:   |     |     |      | 0.9870            |                    |
+|     |      |     | :heavy_check_mark:   |     |      | 0.9963            |                    |
+|     |      |     |     | :heavy_check_mark:   |      | 0.9933            |                    |
+| :heavy_check_mark:   |      | :heavy_check_mark:   |     |     |      | 0.9963            |                    |
+| :heavy_check_mark:   |      | :heavy_check_mark:   | :heavy_check_mark:   |     |      | 0.9983            |                    |
+| :heavy_check_mark:   |      | :heavy_check_mark:   | :heavy_check_mark:   |     | :heavy_check_mark:    | 0.9997            |                    |
+| :heavy_check_mark:   |      | :heavy_check_mark:  | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:    | 1.0000            |                    |
+|     | :heavy_check_mark:    | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:   | :heavy_check_mark:    | **1.0000**|**0.9988**|
 
 
 ## References
