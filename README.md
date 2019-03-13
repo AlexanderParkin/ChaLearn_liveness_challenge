@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ## Train
 Used pretrained models for face or gender recognition
 
-|Exp. Name|Model architecture|Train description|Link|Google Drive|
+|Exp. Name|Model architecture|Train description|Architecture|Weights|
 |:---:|:------------:|:-------------:|:--------:|:---------:|
 |exp1_2stage|resnet caffe34|CASIA, sphere loss|[MCS2018](https://github.com/AlexanderParkin/MCS2018.Baseline)|[Google Drive](https://drive.google.com/open?id=1dnfh7rSrGV9_ROQ6TcRU6O1Kn0ZP5kEQ)|
 |exp2|resnet caffe34|Gender classifier on AFAD-Lite|./attributes_trainer|[Google Drive](https://drive.google.com/open?id=1-0bM0OV6hgxDWv7f4JvdZRepbfW46k4a)|
