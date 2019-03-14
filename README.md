@@ -43,7 +43,7 @@ Used pretrained models for face or gender recognition
 
 
 ### Step 1 (can be skipped)
-Download all pretrained models (exp1_2stage, exp3b, exp3c links) and challenge train/val/test data
+Download all pretrained models ([Google Drive](https://drive.google.com/file/d/1-FAmtxFTXJBl-G20W_naEM78PfaOXTpz/view?usp=sharing)) and challenge train/val/test data
 
 ### Step 2 (can be skipped)
 Download AFAD-Lite and train a model for gender recognition task
