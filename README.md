@@ -37,8 +37,8 @@ Used pretrained models for face or gender recognition
 |Exp. Name|Model architecture|Train description|Architecture|Weights|
 |:---:|:------------:|:-------------:|:--------:|:---------:|
 |exp1_2stage|resnet caffe34|CASIA, sphere loss|[MCS2018](https://github.com/AlexanderParkin/MCS2018.Baseline)|[Google Drive](https://drive.google.com/open?id=1dnfh7rSrGV9_ROQ6TcRU6O1Kn0ZP5kEQ)|
-|exp2|resnet caffe34|Gender classifier on AFAD-Lite|./attributes_trainer|[Google Drive](https://drive.google.com/open?id=1-0bM0OV6hgxDWv7f4JvdZRepbfW46k4a)|
-|exp3b|IR50|MSCeleb, arcface|[face.evoLVe.PyTorch](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch#Model-Zoo)|[Google Drive](https://drive.google.com/open?id=1-1yfxGjz_6YRsSSpeZPZPjlhJRmkbthe)|
+|exp2|resnet caffe34|Gender classifier on AFAD-Lite|./attributes_trainer|[Google Drive](https://drive.google.com/file/d/1-FhqBZ14qNQANQrs-7jYlBgaFy9bC3zN)|
+|exp3b|IR50|MSCeleb, arcface|[face.evoLVe.PyTorch](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch#Model-Zoo)|[Google Drive](https://drive.google.com/file/d/1-OCl0xt0f4eBwzKWYW5sErV_snHlZMBa)|
 |exp3c|IR50|asia(private) dataset, arcface|[face.evoLVe.PyTorch](https://github.com/ZhaoJ9014/face.evoLVe.PyTorch#Model-Zoo)|[Google Drive](https://drive.google.com/open?id=1-DFXeauUKY0O5-1KWQ0-Ojyu0Nzpf84H)|
 
 
