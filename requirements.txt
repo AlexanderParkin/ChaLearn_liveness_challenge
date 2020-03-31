@@ -1,5 +1,5 @@
 backcall==0.1.0
-bleach==3.0.2
+bleach==3.1.4
 blosc==1.8.1
 bloscpack==0.16.0
 certifi==2018.11.29
