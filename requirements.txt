@@ -2,7 +2,7 @@ backcall==0.1.0
 bleach==3.0.2
 blosc==1.8.1
 bloscpack==0.16.0
-certifi==2018.11.29
+certifi==2022.12.7
 chardet==3.0.4
 cloudpickle==0.6.1
 cycler==0.10.0
